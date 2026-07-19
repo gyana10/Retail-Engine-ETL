@@ -286,7 +286,6 @@ Airflow Success
 - PostgreSQL Data Warehouse
 - Idempotent Pipeline Design
 - Production-ready Repository Structure
-
 ---
 
 # 📚 Skills Demonstrated
@@ -302,16 +301,9 @@ Airflow Success
 - Python Automation
 - Data Quality Engineering
 - Git & Version Control
-
 ---
-
 # 👨‍💻 Author
 
 **Gyana Ranjan Mohanty**
-
 B.Tech Computer Science (Data Science)
-
 Passionate about Data Engineering, Machine Learning, and Cloud Technologies.
-
-GitHub:
-https://github.com/gyana10
