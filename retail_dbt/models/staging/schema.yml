@@ -1,0 +1,35 @@
+version: 2
+
+models:
+  - name: stg_customers
+    description: "Cleaned customer staging view"
+    columns:
+      - name: customer_id
+        description: "Primary key for customer entity"
+        tests:
+          - not_null
+
+  - name: stg_orders
+    description: "Cleaned e-commerce order headers view"
+    columns:
+      - name: order_id
+        description: "Primary key for order"
+        tests:
+          - not_null
+
+  - name: stg_order_items
+    description: "Cleaned line items for orders view"
+    columns:
+      - name: order_id
+        tests:
+          - not_null
+      - name: product_id
+        tests:
+          - not_null
+
+  - name: stg_products
+    description: "Cleaned product details staging view"
+    columns:
+      - name: product_id
+        tests:
+          - not_null

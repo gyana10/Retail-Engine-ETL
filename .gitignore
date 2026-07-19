@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+retail_de/
+
+# Environment files
+.env
+
+# Airflow
+airflow/logs/
+airflow/airflow.db
+
+# dbt
+logs/
+target/
+dbt_packages/
+retail_dbt/logs/
+retail_dbt/target/
+retail_dbt/dbt_packages/
+retail_dbt/.user.yml
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Git
+*.swp
+*.tmp
